@@ -1,0 +1,76 @@
+/* Estilo de fundo para o aplicativo */
+.root {
+    -fx-background-color: #FFF8E7;  /* Cor suave inspirada em flores */
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* Estilo para o botão "Flores" e "Ver Todas as Flores" */
+.button {
+    -fx-background-color: #FFB6C1;  /* Cor rosa clara */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #FF69B4;  /* Cor de rosa mais forte ao passar o mouse */
+}
+
+/* Estilo para a célula de cada flor na lista */
+.list-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #FFD1DC;
+    -fx-border-width: 1;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 3);
+}
+
+.flower-name {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #8B0000;  /* Cor de texto inspirada em flores */
+}
+
+/* Fundo suave e bordas arredondadas para cada célula */
+.flower-cell {
+    -fx-background-color: #FFF8E7;  /* Fundo de cor pastel */
+    -fx-border-color: #FFD1DC;      /* Borda rosa claro */
+    -fx-border-width: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 3);
+}
+
+.flower-name {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #8B0000;  /* Vermelho suave */
+}
+
+.flower-description {
+    -fx-font-size: 12px;
+    -fx-text-fill: #6D6D6D;  /* Cinza claro para descrição */
+}
+
+/* Estilo para o botão para ficar consistente */
+.button {
+    -fx-background-color: #FFB6C1;  /* Cor rosa clara */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #FF69B4;  /* Cor de rosa mais forte ao passar o mouse */
+}

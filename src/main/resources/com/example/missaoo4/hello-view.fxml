@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.missaoo4.FlowerController" fx:id="mainContainer">
+    <children>
+        <!-- O conteúdo é gerado dinamicamente pelo controlador -->
+    </children>
+</VBox>
